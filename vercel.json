@@ -1,1 +1,1 @@
-{"version": 2, "routes": [{"src": "/api/(.*)", "dest": "/api/index.js"}], "env": {"API_URL": "https://api.yoursite.com"}}
+{"buildCommand":"npm run build","outputDirectory":"build","env":{"REACT_APP_API_URL":"@react_app_api_url"},"rewrites":[{"source":"/api/:path*","destination":"${REACT_APP_API_URL}/api/:path*"}]}
